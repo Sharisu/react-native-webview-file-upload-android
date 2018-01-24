@@ -9,8 +9,7 @@
  * @providesModule AndroidWebView
  */
 import React, {
-  Component,
-  PropTypes,
+  Component
 } from 'react';
 import ReactNative, {
   EdgeInsetsPropType,
@@ -20,6 +19,7 @@ import ReactNative, {
   View,
   requireNativeComponent,
 } from 'react-native';
+import PropTypes from 'prop-types';
 import warning from 'warning';
 import keyMirror from 'keymirror';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
